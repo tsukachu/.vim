@@ -1,3 +1,7 @@
 # Vim
 /autoload/*
-!/autoload/.gitkeep
+
+# vim-plug
+/plugged/*
+
+!.gitkeep
