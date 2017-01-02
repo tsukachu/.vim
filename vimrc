@@ -7,5 +7,6 @@ call plug#begin('~/.vim/plugged')
 
 " Package list
 Plug 'tomasr/molokai'
+Plug 'itchyny/lightline.vim'
 
 call plug#end()
