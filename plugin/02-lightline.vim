@@ -1,5 +1,11 @@
+" Always display status line
 set laststatus=2
+
+" Use Unicode encoding twice as wide as ASCII
 set ambiwidth=double
+
+" Non-display mode change message
+set noshowmode
 
 let g:lightline = {
         \ 'colorscheme': 'onedark',
