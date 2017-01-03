@@ -10,3 +10,5 @@ Plug 'tomasr/molokai'
 Plug 'itchyny/lightline.vim'
 
 call plug#end()
+
+runtime! inits/**/*.vim
