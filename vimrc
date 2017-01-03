@@ -13,6 +13,7 @@ Plug 'joshdick/onedark.vim'
 
 " Status line
 Plug 'itchyny/lightline.vim'
+Plug 'tpope/vim-fugitive'
 
 call plug#end()
 
