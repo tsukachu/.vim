@@ -11,11 +11,12 @@ let g:lightline = {
         \ 'colorscheme': 'onedark',
         \ 'active': {
         \   'left': [ [ 'mode', 'paste' ],
-        \             [ 'fugitive', 'readonly', 'filename', 'modified' ] ]
+        \             [ 'fugitive', 'readonly', 'filename', 'modified', 'anzu' ] ]
         \ },
         \ 'component_function': {
         \   'fugitive': 'LightlineFugitive',
         \   'readonly': 'LightlineReadonly',
+        \   'anzu': 'anzu#search_status',
         \ },
         \ 'separator': { 'left': "\u2b80", 'right': "\u2b82" },
         \ 'subseparator': { 'left': "\u2b81", 'right': "\u2b83" }

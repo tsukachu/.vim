@@ -15,6 +15,9 @@ Plug 'joshdick/onedark.vim'
 Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-fugitive'
 
+" Search
+Plug 'osyo-manga/vim-anzu'
+
 call plug#end()
 
 runtime! inits/**/*.vim
