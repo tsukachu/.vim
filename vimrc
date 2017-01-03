@@ -6,7 +6,12 @@ endif
 call plug#begin('~/.vim/plugged')
 
 " Package list
-Plug 'tomasr/molokai'
+
+" colorscheme
+" Plug 'tomasr/molokai'
+Plug 'joshdick/onedark.vim'
+
+" Status line
 Plug 'itchyny/lightline.vim'
 
 call plug#end()
